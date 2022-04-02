@@ -1,0 +1,47 @@
+body {
+    background-color: black; 
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.originals {
+    width: 90%;
+    margin: auto;
+    background-color: darkgreen;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Arvo', serif;
+}
+
+.copies {
+    width: 90%;
+    margin:auto;
+    background-color:darkgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 130px;
+    margin: auto;
+    border-width: 10px;
+    border-color: darkkhaki;
+    background-color: white;
+    color: green;
+    font-family: 'Arvo', serif;
+    font-size: 12px;
+}
+
+button:hover{
+    color: black;
+    text-decoration: underline; 
+}
